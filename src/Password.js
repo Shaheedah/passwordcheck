@@ -1,4 +1,5 @@
 //Password is valid
+
 function password_is_valid(password){
     var check = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{9,}$/
     var result = check.test(password);
@@ -12,7 +13,7 @@ function password_is_valid(password){
 
 
 
-//function is ok
+//Password is ok
 function password_is_ok(password) {
 
     var pass1 = /^[A-Za-z0-9]{9,}$/;
